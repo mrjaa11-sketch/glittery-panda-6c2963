@@ -1,0 +1,85 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --color-ink: #14100c;
+  --color-ink-2: #1b1610;
+  --color-ink-3: #241d16;
+  --color-parchment: #ece0c8;
+  --color-parchment-dim: #b3a58b;
+  --color-brass: #c19a46;
+  --color-brass-bright: #e3c078;
+  --color-ember: #bf5a2d;
+
+  --font-display: "Grenze Gotisch", Palatino, serif;
+  --font-body: "Spectral", Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-ink);
+  color: var(--color-parchment);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Fixed, non-interactive grain overlay for painted-canvas texture. */
+.grain::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.22;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes drift {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(0.7);
+  }
+  18% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(14px, -220px, 0) scale(1.1);
+  }
+}
+
+.ember {
+  animation: drift linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .rise,
+  .ember {
+    animation: none;
+  }
+  .ember {
+    opacity: 0;
+  }
+}
