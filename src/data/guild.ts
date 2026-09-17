@@ -3,7 +3,7 @@
  * Change copy, times, or the Discord invite in this file and the page follows.
  */
 export const guild = {
-  name: 'Filthy Casuals TEST TEST TEST',
+  name: 'Filthy Casuals',
   game: 'Warcraft Forever',
   discordUrl: 'https://discord.gg/NSd3EqPGaA',
 
@@ -11,7 +11,7 @@ export const guild = {
   launchISO: '2026-11-04T00:00:00Z',
   launchLabel: 'November 4',
 
-  tagline: 'We raid on Tuesdays, we wipe with dignity, and we log off at eleven.',
+  tagline: 'TEST We raid on Tuesdays, we wipe with dignity, and we log off at eleven.',
   intro:
     'A guild for people with jobs, kids, and a fondness for the game that does not depend on being good at it. We clear the content. It just takes us a couple of extra pulls.',
 
