@@ -3,7 +3,7 @@
  * Change copy, times, or the Discord invite in this file and the page follows.
  */
 export const guild = {
-  name: 'Filthy Casuals',
+  name: 'Filthy Casuals TEST TEST TEST',
   game: 'Warcraft Forever',
   discordUrl: 'https://discord.gg/NSd3EqPGaA',
 
