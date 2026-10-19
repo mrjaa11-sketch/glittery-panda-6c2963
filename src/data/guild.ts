@@ -11,26 +11,25 @@ export const guild = {
   launchISO: '2026-11-04T23:00:00Z',
   launchLabel: 'November 4',
 
-  tagline: 'TEST We raid on Tuesdays, we wipe with dignity, and we log off at eleven.',
-  intro:
+    intro:
     'A guild for people with jobs, kids, and a fondness for the game that does not depend on being good at it. We clear the content. It just takes us a couple of extra pulls.',
 
   /** The guild charter — the three things we actually hold to. */
   tenets: [
     {
-      title: 'Parses are private',
+      title: 'Our Mission',
       body:
-        'We clear the content without posting logs in chat to make a point about somebody’s uptime. If you want help squeezing more out of your rotation, ask and you will get it — quietly, and only because you asked.',
+        'The mission of Filthy Casuals is to build an enduring community of World of Warcraft Classic gamers founded on friendship, fun, honor, and mutual respect.',
     },
     {
-      title: 'We finish on time',
+      title: 'Our Vision',
       body:
-        'Raid ends at eleven. Mid-pull, mid-sentence, mid-boss — it ends. People have early alarms and small children, and nobody here gets guilted into a third night.',
+        'The vision of Filthy Casuals is to treat others as you would want to be treated.',
     },
     {
-      title: 'Ask the obvious question',
+      title: 'Filthy Casuals is for anyone, not for everyone.',
       body:
-        'Nobody read the strategy guide either. Ask in voice and someone will walk you through it without sighing into their microphone first.',
+        'We're here to game, so keep guild chat free of controversial topics such as politics, religion, or cultural issues. Sexual harassment and racism will not be tolerated. Character names that are vulgar will be removed from the guild. Keep guild chat family friendly.',
     },
   ],
 
