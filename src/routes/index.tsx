@@ -232,10 +232,7 @@ function GuildHome() {
               <span className="block text-xs uppercase tracking-[0.35em] text-brass">
                 The charter
               </span>
-              <span className="mt-4 block font-display text-4xl leading-tight text-parchment sm:text-5xl">
-                Three things we
-                <br className="hidden sm:block" /> actually hold to
-              </span>
+              
             </h2>
             <p className="self-end text-base leading-relaxed text-parchment-dim md:col-span-6 md:col-start-7">
               Guild rules are usually a wall of text nobody reads. Ours fit on the back of
@@ -280,8 +277,8 @@ function GuildHome() {
                 The week
               </span>
               <h2 className="mt-4 font-display text-4xl leading-tight text-parchment sm:text-5xl">
-                When we are
-                <br /> actually online
+                We are
+                <br /> always online!
               </h2>
               <p className="mt-6 text-base leading-relaxed text-parchment-dim">
                 {guild.realmNote}
@@ -335,8 +332,7 @@ function GuildHome() {
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-parchment-dim">
             No application form, no interview, no logs to submit. Come into the Discord,
-            say hello, and tell us what you are planning to roll on{' '}
-            {guild.launchLabel}.
+            say hello, or message any member ingame for a guild invite.
           </p>
 
           <div className="mt-10 flex justify-center">
