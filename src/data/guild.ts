@@ -29,7 +29,7 @@ export const guild = {
     {
       title: 'Filthy Casuals is for anyone, not for everyone.',
       body:
-        'We're here to game, so keep guild chat free of controversial topics such as politics, religion, or cultural issues. Sexual harassment and racism will not be tolerated. Character names that are vulgar will be removed from the guild. Keep guild chat family friendly.',
+        'We're here to game, so keep guild chat free of controversial topics such as politics, religion, or cultural issues. Sexual harassment and racism will not be tolerated. Character names that are vulgar will be removed from the guild. Keep guild chat family friendly.`,
     },
   ],
 
