@@ -320,7 +320,7 @@ function GuildHome() {
         />
         <div className="mx-auto max-w-3xl px-6 py-24 text-center sm:py-32">
           <img
-            src={img('crest.png', 'w=440&h=440&fit=cover&fm=webp&q=85')}
+            src={img('newcrest.png', 'w=440&h=440&fit=cover&fm=webp&q=85')}
             alt={`The ${guild.name} crest: a battered tankard crossed with a worn sword`}
             width={176}
             height={176}
