@@ -8,7 +8,7 @@ export const guild = {
   discordUrl: 'https://discord.gg/NSd3EqPGaA',
 
   /** Warcraft Forever launch day. Adjust if Blizzard shifts the date or you want a local unlock time. */
-  launchISO: '2026-11-04T00:00:00Z',
+  launchISO: '2026-11-04T23:00:00Z',
   launchLabel: 'November 4',
 
   tagline: 'TEST We raid on Tuesdays, we wipe with dignity, and we log off at eleven.',
