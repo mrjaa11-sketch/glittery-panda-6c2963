@@ -5,7 +5,7 @@
 export const guild = {
   name: 'Filthy Casuals',
   game: 'Warcraft Forever',
-  discordUrl: 'https://discord.gg/NSd3EqPGaA',
+  discordUrl: 'https://discord.gg/filthycasuals',
 
   /** Warcraft Forever launch day. Adjust if Blizzard shifts the date or you want a local unlock time. */
   launchISO: '2026-11-04T23:00:00Z',
@@ -52,12 +52,12 @@ export const guild = {
       when: 'Launch week',
       time: 'From November 4 onward',
       what:
-        'Server-first is not the plan. Getting the whole roster levelled together, with a queue full of people talking nonsense, is the plan.',
+        'Server-first is not the plan. We have ',
     },
   ],
 
   /** Realm and faction are unknown until Blizzard announces servers. */
-  realmNote: 'Realm and faction get posted in Discord the moment servers are announced.',
+  realmNote: 'PVE Ruleset - Alliance.',
 
-  rosterNote: '41 of us signed on so far',
+  rosterNote: 'Hundreds of us signed on so far',
 } as const
