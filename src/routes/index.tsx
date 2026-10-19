@@ -188,26 +188,13 @@ function GuildHome() {
             >
               A {guild.game} guild
             </p>
-
-            <h1
-              className="rise mt-5 bg-gradient-to-b from-parchment via-brass-bright to-brass bg-clip-text font-display text-6xl leading-[0.92] text-transparent sm:text-7xl lg:text-8xl"
-              style={{ animationDelay: '0.15s' }}
-            >
-              {guild.name.split(' ').map((word) => (
-                <span key={word} className="block">
-                  {word}
-                </span>
-              ))}
-            </h1>
-
-            <p
-              className="rise mt-7 max-w-xl font-display text-2xl leading-snug text-parchment sm:text-3xl"
-              style={{ animationDelay: '0.3s' }}
-            >
-              {guild.tagline}
-            </p>
-
-            <p
+<img 
+  src="/img/Journey.jpg" 
+  alt="Filthy Casuals Timeline" 
+  className="rise mt-5 max-w-full h-auto rounded border border-brass/20 shadow-xl" 
+  style={{ animationDelay: '0.15s' }}
+/>
+           <p
               className="rise mt-5 max-w-xl text-lg leading-relaxed text-parchment-dim"
               style={{ animationDelay: '0.4s' }}
             >
