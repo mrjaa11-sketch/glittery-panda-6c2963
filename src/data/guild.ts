@@ -12,7 +12,7 @@ export const guild = {
   launchLabel: 'November 4',
 
     intro:
-    'A guild for people with jobs, kids, and a fondness for the game that does not depend on being good at it. We clear the content. It just takes us a couple of extra pulls.',
+    'A guild for Casuals, Raiders, Explorers, PVP, and Social events. ',
 
   /** The guild charter — the three things we actually hold to. */
   tenets: [
@@ -37,22 +37,22 @@ export const guild = {
   /** When we are actually online. */
   schedule: [
     {
-      when: 'Tuesday & Thursday',
-      time: '8:30 – 11:00 PM ET',
+      when: 'Now until Release.',
+      time: 'Every Day',
       what:
-        'Raid nights. Normal until the roster settles, Heroic once it has. Sign-ups go in Discord, and showing up late beats not showing up.',
+        'The Beta',
     },
     {
-      when: 'Sunday',
-      time: 'Whenever people wander in',
+      when: 'November 4th',
+      time: 'As long as it takes',
       what:
-        'Keys, alt runs, and at least one person stuck on a quest chain who needs two more bodies.',
+        'PVE Ruleset- Alliance - Waiting in queue!',
     },
     {
       when: 'Launch week',
       time: 'From November 4 onward',
       what:
-        'Server-first is not the plan. We have ',
+        'Some members play a little and some members play a LOT. All are welcome!',
     },
   ],
 
