@@ -200,7 +200,20 @@ function GuildHome() {
             >
               {guild.intro}
             </p>
+<p
+  className="rise mt-5 max-w-xl text-lg leading-relaxed text-parchment-dim"
+  style={{ animationDelay: '0.4s' }}
+>
+  {guild.intro}
+</p>
 
+{/* Add the new image here */}
+<img 
+  src="/img/pvealliance.jpg" 
+  alt="Normal PVE - Alliance" 
+  className="rise mt-4 max-w-full h-auto rounded border border-brass/20 shadow-xl" 
+  style={{ animationDelay: '0.45s' }}
+/>
             <div
               className="rise mt-10 flex flex-wrap items-center gap-5"
               style={{ animationDelay: '0.5s' }}
