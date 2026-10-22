@@ -200,12 +200,6 @@ function GuildHome() {
             >
               {guild.intro}
             </p>
-<p
-  className="rise mt-5 max-w-xl text-lg leading-relaxed text-parchment-dim"
-  style={{ animationDelay: '0.4s' }}
->
-  {guild.intro}
-</p>
 
 {/* Add the new image here */}
 <img 
